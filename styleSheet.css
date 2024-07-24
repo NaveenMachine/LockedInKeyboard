@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.textContainer{
+    width: 90vw;
+    height: 15vh;
+    background: white;
+    box-shadow: 0 0 20px 2px grey;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    outline: none;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+
+}
+
+.keyboard{
+    height: 60vh;
+    width: 70vw;
+    background: darkgrey;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.row{
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+.secondLast{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.space{
+    width: 50%;
+    height: 2rem;
+    background: grey;
+}
+
+
+.key{
+    padding: 1.0rem;
+    border-radius: 2px;
+}
+
+.key:active{
+    background: white;
+
+}
+
+.active{
+    background: whitesmoke;
+}
