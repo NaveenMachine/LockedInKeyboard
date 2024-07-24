@@ -1,0 +1,1 @@
+Locked In Keyboard was created to help people with Locked In Syndrome communicate.
